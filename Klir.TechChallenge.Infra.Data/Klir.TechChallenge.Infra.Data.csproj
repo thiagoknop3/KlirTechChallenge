@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Klir.TechChallenge.Infra.Data</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klir.TechChallenge.Domain\Klir.TechChallenge.Domain.csproj" />
+    <ProjectReference Include="..\Klir.TechChallenge.Infra.CrossCutting\Klir.TechChallenge.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

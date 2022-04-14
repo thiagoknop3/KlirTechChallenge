@@ -1,0 +1,33 @@
+<h1 id="tableLabel">Shopping Cart</h1>
+
+<p *ngIf="!shoppingCart"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="shoppingCart">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+      <th>Promotion Applied</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of shoppingCart.items">
+      <td>{{ item.product.name }}</td>
+      <td>{{ item.quantity }}</td>
+      <td>{{ item.product.price }}</td>
+      <td>{{ item.total }}</td>
+      <td>{{ (Promotion[item.promotion])}}</td>
+    </tr>
+  </tbody>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Total</td>
+        <td>{{ shoppingCart.total }}</td>
+        <td></td>
+      </tr>
+    </tfoot>  
+</table>

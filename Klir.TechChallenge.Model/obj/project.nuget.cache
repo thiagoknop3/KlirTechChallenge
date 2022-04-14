@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mkGNQgm+26uT6dlaVLfwV78+2tdjIHHWi/0pd8zpIxIGsmJL/XQf6qTIZ4lydrMx6eJEfcHKUDBArLDFdY0N0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thidi\\source\\repos\\KlirTechChallenge\\Klir.TechChallenge.Model\\Klir.TechChallenge.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thidi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Models.deps.json
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Models.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Models.pdb
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.csproj.AssemblyReference.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.AssemblyInfoInputs.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.AssemblyInfo.cs
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.csproj.CoreCompileInputs.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Model\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Models.pdb

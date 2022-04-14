@@ -1,14 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="JsonFiles\Product.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Klir.TechChallenge.Domain\Klir.TechChallenge.Domain.csproj" />
+    <ProjectReference Include="..\..\Klir.TechChallenge.Infra.CrossCutting\Klir.TechChallenge.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\..\Klir.TechChallenge.Infra.Data\Klir.TechChallenge.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\Klir.TechChallenge.Service\Klir.TechChallenge.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="JsonFiles\Product.json" />
   </ItemGroup>
 
 

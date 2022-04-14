@@ -1,16 +1,18 @@
+using AutoMapper;
+using Klir.TechChallenge.Domain.Entities;
+using Klir.TechChallenge.Domain.Interfaces;
+using Klir.TechChallenge.Infra.Data.Repository;
+using Klir.TechChallenge.Service;
+using Klir.TechChallenge.Service.Services;
+using Klir.TechChallenge.Web.Api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace KlirTechChallenge.Web.Api
+namespace Klir.TechChallenge.Web.Api
 {
     public class Startup
     {
@@ -34,7 +36,27 @@ namespace KlirTechChallenge.Web.Api
                                       builder.WithOrigins("http://localhost:4200");
                                   });
             });
+            services.AddScoped<IBaseRepository<Product>>(options => {
+                return new BaseRepository<Product>(Configuration.GetSection("ProductJsonFile").Value);
+            });
+            services.AddScoped<IBaseRepository<ShoppingCart>>(options => {
+                return new BaseRepository<ShoppingCart>(Configuration.GetSection("ShoppingCartJsonFile").Value);
+            });
+            services.AddScoped<IBaseService<Product>, BaseService<Product>>();
 
+            services.AddScoped<IShoppingCartService, ShoppingCartService>(); 
+            //(options => {
+            //    var repository = options.GetService<IBaseRepository<ShoppingCart>>();
+            //    var mapper = options.GetService<IMapper>();
+            //    var logger = options.GetService<ILogger<ShoppingCartService>>();
+            //    return new ShoppingCartService(repository, mapper, logger);
+            //});
+            services.AddSingleton(new MapperConfiguration(config => 
+            { 
+                config.CreateMap<ProductModel, Product>();
+                config.CreateMap<ItemCommand, Item>();
+                config.CreateMap<ShoppingCartModel, ShoppingCart>();
+            }).CreateMapper());
             services.AddControllers();
         }
 

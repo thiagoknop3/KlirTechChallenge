@@ -1,0 +1,15 @@
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.deps.json
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.pdb
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.AssemblyInfo.cs
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.csproj.CopyComplete
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.Data.pdb
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.CrossCutting.dll
+C:\Users\thidi\source\repos\KlirTechChallenge\Klir.TechChallenge.Infra.Data\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infra.CrossCutting.pdb
